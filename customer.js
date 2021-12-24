@@ -1,4 +1,4 @@
-class Customer{
+class PbsInf{
     constructor(CustomerID,Firstname,Lastname,Age,Gender){
         this.CustomerID = CustomerID;
         this.Firstname = Firstname;

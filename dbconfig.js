@@ -1,14 +1,17 @@
+
+
 const config = {
-    user : 'gg123',
-    password: '123',
-    server: '127.0.0.1',
-    database: 'SQL',
-    // option:{
-    //     trustedConnection: true,
-    //     enableArithPort: true,
-    //     instancename: 'SQLEXPRESS'
-    // },
-    port : 1433
-}
+    user: 'bit', //username created from SQL Management Studio
+    password: 'bitbit',
+    server: '10.88.1.13',    //the IP of the machine where SQL Server runs
+    database: 'BITTEST',
+    options: {
+        trustServerCertificate: true
+       //the username above should have granted permissions in order to access this DB.
+      
+        //encrypt: true
+    }
+
+};
 
 module.exports = config;
