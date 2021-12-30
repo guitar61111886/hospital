@@ -1,6 +1,7 @@
 // const { response } = require('express');
 const express = require('express'),
     dboperations = require('./dbFiles/dboperations'),
+    bodyParser =require('body-parser'),
     cors = require('cors');
 
 // const API_PORT = process.env.PORT || 3000;
